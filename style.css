@@ -1,19 +1,37 @@
-body{
+body {
     background-size: 100vh 100ch;
     font-family: 'Readex Pro', sans-serif;
 }
-.heading{
+
+.heading {
     width: 100%;
     text-align: left;
 }
-.heading h2{
+
+.heading h2 {
     display: inline;
 }
-.heading button{
+
+.heading button {
     float: right;
     background-color: white;
     color: rgb(63, 148, 177);
 }
-.play{
+
+.play, .restart {
     font-size: 20px;
+}
+
+.modal_dialog{
+    width: 90%;
+}
+
+.pop-up-head{
+    font-size: 20px;
+    color: lightcoral;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
 }
