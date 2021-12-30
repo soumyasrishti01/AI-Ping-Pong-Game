@@ -1,0 +1,19 @@
+body{
+    background-size: 100vh 100ch;
+    font-family: 'Readex Pro', sans-serif;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h2{
+    display: inline;
+}
+.heading button{
+    float: right;
+    background-color: white;
+    color: rgb(63, 148, 177);
+}
+.play{
+    font-size: 20px;
+}

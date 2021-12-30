@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script><style type="text/css" data-glamor=""></style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+        <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+    </head>
+    <body background="background image.jpg">
+        <div class="btn btn-info heading">
+            <h2>AL PING PONG GAME</h2>
+            <button class="btn btn-info" data-toggle="model" data-target="#myModel">INSTRUCTIONS</button>
+        </div>
+        <br><br>
+        <center>
+        <button class="btn btn-info play" onclick="StartGame()">Play</button>
+        <br><br>
+        <button class="btn btn-info" id="status"></button>
+        <div id="canvas"></div>
+        </center>
+    </body>
+</html>
