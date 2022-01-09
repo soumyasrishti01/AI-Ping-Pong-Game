@@ -18,20 +18,27 @@ body {
     color: rgb(63, 148, 177);
 }
 
-.play, .restart {
+.play,
+.restart {
     font-size: 20px;
 }
 
-.modal_dialog{
+.modal_dialog {
     width: 90%;
 }
 
-.pop-up-head{
+.pop-up-head {
     font-size: 20px;
     color: lightcoral;
 }
 
-p{
+p {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+canvas {
+    border: 3px solid black;
+    width: 800;
+    height: 800;
 }
